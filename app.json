@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "chat-app",
+    "slug": "chat-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "plugins": [
+        [
+          "expo-image-picker",
+          {
+            "photosPermission": "The app accesses your photos to let you share them with your friends."
+          }
+        ]
+      ]
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "51bb8454-27ca-4c94-965d-acdc8a577332"
+      }
+    }
+  }
+}
