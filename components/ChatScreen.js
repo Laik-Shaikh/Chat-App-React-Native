@@ -43,7 +43,7 @@ const ChatScreen = ({ navigation, route }) => {
             alignItems: "center",
           }}
         >
-          <EvilIcons name="user" size={50} color="white" />
+          <EvilIcons style={{marginLeft: -25}} name="user" size={50} color="white" />
           <Text
             style={{
               color: "white",
