@@ -1,28 +1,32 @@
 {
   "name": "chat-app",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
     "@expo/webpack-config": "^0.17.2",
     "@react-native-community/masked-view": "^0.1.11",
-    "@react-navigation/native": "^6.0.13",
+    "@react-navigation/native": "^6.1.1",
     "@react-navigation/native-stack": "^6.9.1",
+    "@react-navigation/stack": "^6.3.10",
     "dotenv": "^16.0.3",
-    "expo": "~47.0.6",
+    "expo": "~47.0.9",
     "expo-image-picker": "~14.0.2",
+    "expo-splash-screen": "~0.17.5",
     "expo-status-bar": "~1.4.2",
     "firebase": "^9.14.0",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-native": "0.70.5",
     "react-native-elements": "^3.0.0",
+    "react-native-gesture-handler": "~2.8.0",
+    "react-native-reanimated": "^2.13.0",
+    "react-native-safe-area-context": "^3.4.0",
     "react-native-screens": "~3.18.0",
     "react-native-web": "~0.18.9"
   },
@@ -31,3 +35,4 @@
   },
   "private": true
 }
+
